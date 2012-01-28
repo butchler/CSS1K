@@ -1,0 +1,63 @@
+/* Nothing yet */
+header h1
+{
+  text-align: center;
+}
+
+nav
+{
+  width: 10%;
+  height: 80%;
+  position: absolute;
+  background-color: #ccc;
+  -webkit-transition: ease-in-out .3s;
+}
+nav ul
+{
+  opacity: 0;
+  -webkit-transition: ease-in-out .3s;
+}
+nav h2
+{
+  width: 1000%;
+  -webkit-transform: rotate(-90deg);
+  -webkit-transform-origin: top left;
+  -webkit-transition: ease-in-out .3s;
+  position: relative;
+  top: 60%;
+  left: 30%;
+  font-size: 200%;
+}
+
+nav:hover
+{
+  width: 80%;
+  overflow-y: scroll;
+}
+nav:hover ul
+{
+  opacity: 1;
+}
+nav:hover h2
+{
+  width: 100%;
+  -webkit-transform: none;
+  position: static;
+  text-align: center;
+}
+
+article
+{
+  float: right;
+  width: 70%;
+  margin-right: 5%;
+  padding: 2% 5%;
+  background-color: #ccc;
+}
+
+footer
+{
+  clear: both;
+  text-align: center;
+  padding: 1em;
+}
